@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+*:hover {
+  transition: all 0.3s;
+}
+
+body {
+
+  font-family: "SFProDisplay-Regular",
+    sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 14px;
+  color: #2F3035;
+  background-color: #fff;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+
+}
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+
+.container {
+  padding: 0 30px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.flex-just {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.breadcrumbs {
+  margin-bottom: 10px;
+  padding-top: 10px;
+
+  li {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 18px;
+    color: #03a9f4;
+
+
+    &:last-child {
+      color: #C4C4C4;
+    }
+  }
+}
